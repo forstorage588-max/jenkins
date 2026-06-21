@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.6 s <<< FAILURE! - in TestSuite
+simpleTest(com.example.MiniTest)  Time elapsed: 1.272 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 150
+Current browser version is 143.0.7499.193 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'MANISH', ip: '10.43.95.7'
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at com.example.MiniTest.simpleTest(MiniTest.java:11)
+
